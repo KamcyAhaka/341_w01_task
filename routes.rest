@@ -2,7 +2,19 @@
 GET http://localhost:8080/contacts
 
 GET http://localhost:8080/contacts/682ca3c7d8a839696a6ed1ce
+POST http://localhost:8080/contacts HTTP/1.1 content-type: application/json
 
+{
+"firstName": "Ali", "lastName": "Ahmed", "email": "ahmedali@mail.com", "favouriteColor": "brown", "birthday": "06/19/2001",
+}
+
+PUT http://localhost:8080/contacts/682ca3c7d8a839696a6ed1d6 HTTP/1.1 content-type: application/json
+
+{
+"firstName": "Jane", "lastName": "Jack", "email": "jackyn@gmail.com", "favouriteColor": "Blue", "birthday": "02/09/2003",
+}
+
+DELETE http://localhost:8080/contacts/682ca3c7d8a839696a6ed1d8 HTTP/1.1
 
 
 
@@ -13,3 +25,16 @@ GET http://localhost:8080/contacts/682ca3c7d8a839696a6ed1ce
 GET https://three41-w01-task.onrender.com/contacts
 
 GET https://three41-w01-task.onrender.com/contacts/682ca3c7d8a839696a6ed1d0
+POST https://three41-w01-task.onrender.com/contacts HTTP/1.1 content-type: application/json
+
+{
+"firstName": "Bruce", "lastName": "Wayne", "email": "wayne@wayneenter.prise", "favouriteColor": "green", "birthday": "06/19/2000",
+}
+
+PUT https://three41-w01-task.onrender.com/contacts/682ca3c7d8a839696a6ed1da HTTP/1.1 content-type: application/json
+
+{
+"firstName": "Jane", "lastName": "Jack", "email": "jackyn@gmail.com", "favouriteColor": "Blue", "birthday": "02/09/2003",
+}
+
+DELETE https://three41-w01-task.onrender.com/contacts/682ca3c7d8a839696a6ed1dd HTTP/1.1
