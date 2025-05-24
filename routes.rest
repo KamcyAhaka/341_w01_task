@@ -1,0 +1,15 @@
+# LOCAL
+GET http://localhost:8080/contacts
+
+GET http://localhost:8080/contacts/682ca3c7d8a839696a6ed1cd
+
+
+
+
+
+
+
+# PRODUCTION
+GET https://w01-project.onrender.com/contacts
+
+GET https://w01-project.onrender.com/contacts/682ca3c7d8a839696a6ed1cd
