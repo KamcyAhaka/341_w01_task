@@ -1,7 +1,7 @@
 # LOCAL
 GET http://localhost:8080/contacts
 
-GET http://localhost:8080/contacts/682ca3c7d8a839696a6ed1cd
+GET http://localhost:8080/contacts/682ca3c7d8a839696a6ed1ce
 
 
 
@@ -10,6 +10,6 @@ GET http://localhost:8080/contacts/682ca3c7d8a839696a6ed1cd
 
 
 # PRODUCTION
-GET https://w01-project.onrender.com/contacts
+GET https://three41-w01-task.onrender.com/contacts
 
-GET https://w01-project.onrender.com/contacts/682ca3c7d8a839696a6ed1cd
+GET https://three41-w01-task.onrender.com/contacts/682ca3c7d8a839696a6ed1d0
