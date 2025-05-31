@@ -7,7 +7,7 @@ router.get('/', userController.getAll)
 
 router.get('/:id', userController.getSingle)
 
-router.post('/:id', userController.createContact)
+router.post('/', userController.createContact)
 
 router.put('/:id', userController.updateContact)
 
